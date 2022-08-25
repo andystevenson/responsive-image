@@ -1,0 +1,76 @@
+---
+layout: 'base.njk'
+---
+
+{#
+    xxs   240px 
+    xs    360px 
+    sm    480px 
+    md    768px 
+    lg    1024px
+    xl    1440px
+    xxl   1920px 
+#}
+
+{% set widths = [
+  240,
+  360,
+  480,
+  768,
+  1024,
+  1440,
+  1920
+] %}
+{% set dimensions = [
+  {
+    width: 240,
+    fg: '#FFFFFF',
+    bg: '#000000'
+  }, {
+    width: 360,
+    fg: '#FFFF00',
+    bg: '#000000'
+  }, {
+    width: 480,
+    fg: '#00FFFF',
+    bg: '#0a0aff'
+  }, {
+    width: 768,
+    fg: '#FF00FF',
+    bg: '#FFFFFF'
+  }, {
+    width: 1024,
+    fg: '#FF0000',
+    bg: '#000000'
+  }, {
+    width: 1440,
+    fg: '#000000',
+    bg: '#FFFFFF'
+  }, {
+    width: 1920,
+    bg: '#AAAFFF',
+    fg: '#000000'
+  }
+] %}
+
+{% set site = 'https://via.placeholder.com' %}
+{% set srcset %}
+{% for dim in dimensions %}
+  {{site}}/{{dim.width}}/{{dim.bg | replace('#','')}}/{{dim.fg | replace('#','')}}/p.webp
+  {{dim.width}}w,
+{% endfor %}
+{% endset %}
+
+{% set sizes %}
+{% for dim in dimensions %}
+(max-width: {{dim.width}}px) 80vw,
+{% endfor %}
+100vw
+{% endset %}
+
+<picture>
+  <source sizes="{{sizes}}" srcset="{{srcset}}" type="image/webp">
+  <img src="https://via.placeholder.com/1092.webp" alt="image is great">
+</picture>
+
+<h1>responsive images</h1>
