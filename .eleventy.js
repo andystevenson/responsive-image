@@ -3,8 +3,8 @@
  *  @returns {ReturnType<import("@11ty/eleventy/src/defaultConfig")>}
  */
 
-const shortcodes = require('./src/shortcodes')
-const filters = require('./src/filters')
+const shortcodes = require('@andystevenson/lib/shortcodes')
+const filters = require('@andystevenson/lib/filters')
 
 module.exports = (eleventyConfig) => {
   shortcodes(eleventyConfig)
