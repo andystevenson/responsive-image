@@ -20,5 +20,12 @@
   "homepage": "https://github.com/andystevenson/responsive-image#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "@andystevenson/lib": "^0.0.6",
+    "common-tags": "^1.8.2",
+    "image-size": "^1.0.2",
+    "lodash": "^4.17.21",
+    "mime": "^3.0.0"
   }
 }

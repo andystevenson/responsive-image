@@ -1,0 +1,622 @@
+{
+  "!--": {
+    "prefix": ["ncomment"],
+    "body": ["{% ncomment '$0' %}"],
+    "description": "!-- for nunjucks"
+  },
+  "!DOCTYPE": {
+    "prefix": ["ndoctype"],
+    "body": ["{% ndoctype '$0' %}"],
+    "description": "!DOCTYPE for nunjucks"
+  },
+  "a": {
+    "prefix": ["na"],
+    "body": ["{% a '$0' %}"],
+    "description": "a for nunjucks"
+  },
+  "abbr": {
+    "prefix": ["nabbr"],
+    "body": ["{% abbr '$0' %}"],
+    "description": "abbr for nunjucks"
+  },
+  "acronym": {
+    "prefix": ["nacronym"],
+    "body": ["{% acronym '$0' %}"],
+    "description": "acronym for nunjucks"
+  },
+  "address": {
+    "prefix": ["naddress"],
+    "body": ["{% address '$0' %}"],
+    "description": "address for nunjucks"
+  },
+  "applet": {
+    "prefix": ["napplet"],
+    "body": ["{% applet '$0' %}"],
+    "description": "applet for nunjucks"
+  },
+  "area": {
+    "prefix": ["narea"],
+    "body": ["{% area '$0' %}"],
+    "description": "area for nunjucks"
+  },
+  "article": {
+    "prefix": ["narticle"],
+    "body": ["{% article '$0' %}"],
+    "description": "article for nunjucks"
+  },
+  "aside": {
+    "prefix": ["naside"],
+    "body": ["{% aside '$0' %}"],
+    "description": "aside for nunjucks"
+  },
+  "audio": {
+    "prefix": ["naudio"],
+    "body": ["{% audio '$0' %}"],
+    "description": "audio for nunjucks"
+  },
+  "b": {
+    "prefix": ["nb"],
+    "body": ["{% b '$0' %}"],
+    "description": "b for nunjucks"
+  },
+  "base": {
+    "prefix": ["nbase"],
+    "body": ["{% base '$0' %}"],
+    "description": "base for nunjucks"
+  },
+  "basefont": {
+    "prefix": ["nbasefont"],
+    "body": ["{% basefont '$0' %}"],
+    "description": "basefont for nunjucks"
+  },
+  "bdi": {
+    "prefix": ["nbdi"],
+    "body": ["{% bdi '$0' %}"],
+    "description": "bdi for nunjucks"
+  },
+  "bdo": {
+    "prefix": ["nbdo"],
+    "body": ["{% bdo '$0' %}"],
+    "description": "bdo for nunjucks"
+  },
+  "big": {
+    "prefix": ["nbig"],
+    "body": ["{% big '$0' %}"],
+    "description": "big for nunjucks"
+  },
+  "blockquote": {
+    "prefix": ["nblockquote"],
+    "body": ["{% blockquote '$0' %}"],
+    "description": "blockquote for nunjucks"
+  },
+  "body": {
+    "prefix": ["nbody"],
+    "body": ["{% body '$0' %}"],
+    "description": "body for nunjucks"
+  },
+  "br": {
+    "prefix": ["nbr"],
+    "body": ["{% br '$0' %}"],
+    "description": "br for nunjucks"
+  },
+  "button": {
+    "prefix": ["nbutton"],
+    "body": ["{% button '$0' %}"],
+    "description": "button for nunjucks"
+  },
+  "canvas": {
+    "prefix": ["ncanvas"],
+    "body": ["{% canvas '$0' %}"],
+    "description": "canvas for nunjucks"
+  },
+  "caption": {
+    "prefix": ["ncaption"],
+    "body": ["{% caption '$0' %}"],
+    "description": "caption for nunjucks"
+  },
+  "center": {
+    "prefix": ["ncenter"],
+    "body": ["{% center '$0' %}"],
+    "description": "center for nunjucks"
+  },
+  "cite": {
+    "prefix": ["ncite"],
+    "body": ["{% cite '$0' %}"],
+    "description": "cite for nunjucks"
+  },
+  "code": {
+    "prefix": ["ncode"],
+    "body": ["{% code '$0' %}"],
+    "description": "code for nunjucks"
+  },
+  "col": {
+    "prefix": ["ncol"],
+    "body": ["{% col '$0' %}"],
+    "description": "col for nunjucks"
+  },
+  "colgroup": {
+    "prefix": ["ncolgroup"],
+    "body": ["{% colgroup '$0' %}"],
+    "description": "colgroup for nunjucks"
+  },
+  "data": {
+    "prefix": ["ndata"],
+    "body": ["{% data '$0' %}"],
+    "description": "data for nunjucks"
+  },
+  "datalist": {
+    "prefix": ["ndatalist"],
+    "body": ["{% datalist '$0' %}"],
+    "description": "datalist for nunjucks"
+  },
+  "dd": {
+    "prefix": ["ndd"],
+    "body": ["{% dd '$0' %}"],
+    "description": "dd for nunjucks"
+  },
+  "del": {
+    "prefix": ["ndel"],
+    "body": ["{% del '$0' %}"],
+    "description": "del for nunjucks"
+  },
+  "details": {
+    "prefix": ["ndetails"],
+    "body": ["{% details '$0' %}"],
+    "description": "details for nunjucks"
+  },
+  "dfn": {
+    "prefix": ["ndfn"],
+    "body": ["{% dfn '$0' %}"],
+    "description": "dfn for nunjucks"
+  },
+  "dialog": {
+    "prefix": ["ndialog"],
+    "body": ["{% dialog '$0' %}"],
+    "description": "dialog for nunjucks"
+  },
+  "dir": {
+    "prefix": ["ndir"],
+    "body": ["{% dir '$0' %}"],
+    "description": "dir for nunjucks"
+  },
+  "div": {
+    "prefix": ["ndiv"],
+    "body": ["{% div '$0' %}"],
+    "description": "div for nunjucks"
+  },
+  "dl": {
+    "prefix": ["ndl"],
+    "body": ["{% dl '$0' %}"],
+    "description": "dl for nunjucks"
+  },
+  "dt": {
+    "prefix": ["ndt"],
+    "body": ["{% dt '$0' %}"],
+    "description": "dt for nunjucks"
+  },
+  "em": {
+    "prefix": ["nem"],
+    "body": ["{% em '$0' %}"],
+    "description": "em for nunjucks"
+  },
+  "embed": {
+    "prefix": ["nembed"],
+    "body": ["{% embed '$0' %}"],
+    "description": "embed for nunjucks"
+  },
+  "fieldset": {
+    "prefix": ["nfieldset"],
+    "body": ["{% fieldset '$0' %}"],
+    "description": "fieldset for nunjucks"
+  },
+  "figcaption": {
+    "prefix": ["nfigcaption"],
+    "body": ["{% figcaption '$0' %}"],
+    "description": "figcaption for nunjucks"
+  },
+  "figure": {
+    "prefix": ["nfigure"],
+    "body": ["{% figure '$0' %}"],
+    "description": "figure for nunjucks"
+  },
+  "font": {
+    "prefix": ["nfont"],
+    "body": ["{% font '$0' %}"],
+    "description": "font for nunjucks"
+  },
+  "footer": {
+    "prefix": ["nfooter"],
+    "body": ["{% footer '$0' %}"],
+    "description": "footer for nunjucks"
+  },
+  "form": {
+    "prefix": ["nform"],
+    "body": ["{% form '$0' %}"],
+    "description": "form for nunjucks"
+  },
+  "frame": {
+    "prefix": ["nframe"],
+    "body": ["{% frame '$0' %}"],
+    "description": "frame for nunjucks"
+  },
+  "frameset": {
+    "prefix": ["nframeset"],
+    "body": ["{% frameset '$0' %}"],
+    "description": "frameset for nunjucks"
+  },
+  "h1": {
+    "prefix": ["nh1"],
+    "body": ["{% h1 '$0' %}"],
+    "description": "h1 for nunjucks"
+  },
+  "h2": {
+    "prefix": ["nh2"],
+    "body": ["{% h2 '$0' %}"],
+    "description": "h2 for nunjucks"
+  },
+  "h3": {
+    "prefix": ["nh3"],
+    "body": ["{% h3 '$0' %}"],
+    "description": "h3 for nunjucks"
+  },
+  "h4": {
+    "prefix": ["nh4"],
+    "body": ["{% h4 '$0' %}"],
+    "description": "h4 for nunjucks"
+  },
+  "h5": {
+    "prefix": ["nh5"],
+    "body": ["{% h5 '$0' %}"],
+    "description": "h5 for nunjucks"
+  },
+  "h6": {
+    "prefix": ["nh6"],
+    "body": ["{% h6 '$0' %}"],
+    "description": "h6 for nunjucks"
+  },
+  "head": {
+    "prefix": ["nhead"],
+    "body": ["{% head '$0' %}"],
+    "description": "head for nunjucks"
+  },
+  "header": {
+    "prefix": ["nheader"],
+    "body": ["{% header '$0' %}"],
+    "description": "header for nunjucks"
+  },
+  "hr": {
+    "prefix": ["nhr"],
+    "body": ["{% hr '$0' %}"],
+    "description": "hr for nunjucks"
+  },
+  "html": {
+    "prefix": ["nhtml"],
+    "body": ["{% html '$0' %}"],
+    "description": "html for nunjucks"
+  },
+  "i": {
+    "prefix": ["ni"],
+    "body": ["{% i '$0' %}"],
+    "description": "i for nunjucks"
+  },
+  "iframe": {
+    "prefix": ["niframe"],
+    "body": ["{% iframe '$0' %}"],
+    "description": "iframe for nunjucks"
+  },
+  "img": {
+    "prefix": ["nimg"],
+    "body": ["{% img '$0' %}"],
+    "description": "img for nunjucks"
+  },
+  "input": {
+    "prefix": ["ninput"],
+    "body": ["{% input '$0' %}"],
+    "description": "input for nunjucks"
+  },
+  "ins": {
+    "prefix": ["nins"],
+    "body": ["{% ins '$0' %}"],
+    "description": "ins for nunjucks"
+  },
+  "kbd": {
+    "prefix": ["nkbd"],
+    "body": ["{% kbd '$0' %}"],
+    "description": "kbd for nunjucks"
+  },
+  "label": {
+    "prefix": ["nlabel"],
+    "body": ["{% label '$0' %}"],
+    "description": "label for nunjucks"
+  },
+  "legend": {
+    "prefix": ["nlegend"],
+    "body": ["{% legend '$0' %}"],
+    "description": "legend for nunjucks"
+  },
+  "li": {
+    "prefix": ["nli"],
+    "body": ["{% li '$0' %}"],
+    "description": "li for nunjucks"
+  },
+  "link": {
+    "prefix": ["nlink"],
+    "body": ["{% link '$0' %}"],
+    "description": "link for nunjucks"
+  },
+  "main": {
+    "prefix": ["nmain"],
+    "body": ["{% main '$0' %}"],
+    "description": "main for nunjucks"
+  },
+  "map": {
+    "prefix": ["nmap"],
+    "body": ["{% map '$0' %}"],
+    "description": "map for nunjucks"
+  },
+  "mark": {
+    "prefix": ["nmark"],
+    "body": ["{% mark '$0' %}"],
+    "description": "mark for nunjucks"
+  },
+  "meta": {
+    "prefix": ["nmeta"],
+    "body": ["{% meta '$0' %}"],
+    "description": "meta for nunjucks"
+  },
+  "meter": {
+    "prefix": ["nmeter"],
+    "body": ["{% meter '$0' %}"],
+    "description": "meter for nunjucks"
+  },
+  "nav": {
+    "prefix": ["nnav"],
+    "body": ["{% nav '$0' %}"],
+    "description": "nav for nunjucks"
+  },
+  "noframes": {
+    "prefix": ["nnoframes"],
+    "body": ["{% noframes '$0' %}"],
+    "description": "noframes for nunjucks"
+  },
+  "noscript": {
+    "prefix": ["nnoscript"],
+    "body": ["{% noscript '$0' %}"],
+    "description": "noscript for nunjucks"
+  },
+  "object": {
+    "prefix": ["nobject"],
+    "body": ["{% object '$0' %}"],
+    "description": "object for nunjucks"
+  },
+  "ol": {
+    "prefix": ["nol"],
+    "body": ["{% ol '$0' %}"],
+    "description": "ol for nunjucks"
+  },
+  "optgroup": {
+    "prefix": ["noptgroup"],
+    "body": ["{% optgroup '$0' %}"],
+    "description": "optgroup for nunjucks"
+  },
+  "option": {
+    "prefix": ["noption"],
+    "body": ["{% option '$0' %}"],
+    "description": "option for nunjucks"
+  },
+  "output": {
+    "prefix": ["noutput"],
+    "body": ["{% output '$0' %}"],
+    "description": "output for nunjucks"
+  },
+  "p": {
+    "prefix": ["np"],
+    "body": ["{% p '$0' %}"],
+    "description": "p for nunjucks"
+  },
+  "param": {
+    "prefix": ["nparam"],
+    "body": ["{% param '$0' %}"],
+    "description": "param for nunjucks"
+  },
+  "picture": {
+    "prefix": ["npicture"],
+    "body": ["{% picture '$0' %}"],
+    "description": "picture for nunjucks"
+  },
+  "pre": {
+    "prefix": ["npre"],
+    "body": ["{% pre '$0' %}"],
+    "description": "pre for nunjucks"
+  },
+  "progress": {
+    "prefix": ["nprogress"],
+    "body": ["{% progress '$0' %}"],
+    "description": "progress for nunjucks"
+  },
+  "q": {
+    "prefix": ["nq"],
+    "body": ["{% q '$0' %}"],
+    "description": "q for nunjucks"
+  },
+  "rp": {
+    "prefix": ["nrp"],
+    "body": ["{% rp '$0' %}"],
+    "description": "rp for nunjucks"
+  },
+  "rt": {
+    "prefix": ["nrt"],
+    "body": ["{% rt '$0' %}"],
+    "description": "rt for nunjucks"
+  },
+  "ruby": {
+    "prefix": ["nruby"],
+    "body": ["{% ruby '$0' %}"],
+    "description": "ruby for nunjucks"
+  },
+  "s": {
+    "prefix": ["ns"],
+    "body": ["{% s '$0' %}"],
+    "description": "s for nunjucks"
+  },
+  "samp": {
+    "prefix": ["nsamp"],
+    "body": ["{% samp '$0' %}"],
+    "description": "samp for nunjucks"
+  },
+  "script": {
+    "prefix": ["nscript"],
+    "body": ["{% script '$0' %}"],
+    "description": "script for nunjucks"
+  },
+  "section": {
+    "prefix": ["nsection"],
+    "body": ["{% section '$0' %}"],
+    "description": "section for nunjucks"
+  },
+  "select": {
+    "prefix": ["nselect"],
+    "body": ["{% select '$0' %}"],
+    "description": "select for nunjucks"
+  },
+  "small": {
+    "prefix": ["nsmall"],
+    "body": ["{% small '$0' %}"],
+    "description": "small for nunjucks"
+  },
+  "source": {
+    "prefix": ["nsource"],
+    "body": ["{% source '$0' %}"],
+    "description": "source for nunjucks"
+  },
+  "span": {
+    "prefix": ["nspan"],
+    "body": ["{% span '$0' %}"],
+    "description": "span for nunjucks"
+  },
+  "strike": {
+    "prefix": ["nstrike"],
+    "body": ["{% strike '$0' %}"],
+    "description": "strike for nunjucks"
+  },
+  "strong": {
+    "prefix": ["nstrong"],
+    "body": ["{% strong '$0' %}"],
+    "description": "strong for nunjucks"
+  },
+  "style": {
+    "prefix": ["nstyle"],
+    "body": ["{% style '$0' %}"],
+    "description": "style for nunjucks"
+  },
+  "sub": {
+    "prefix": ["nsub"],
+    "body": ["{% sub '$0' %}"],
+    "description": "sub for nunjucks"
+  },
+  "summary": {
+    "prefix": ["nsummary"],
+    "body": ["{% summary '$0' %}"],
+    "description": "summary for nunjucks"
+  },
+  "sup": {
+    "prefix": ["nsup"],
+    "body": ["{% sup '$0' %}"],
+    "description": "sup for nunjucks"
+  },
+  "svg": {
+    "prefix": ["nsvg"],
+    "body": ["{% svg '$0' %}"],
+    "description": "svg for nunjucks"
+  },
+  "table": {
+    "prefix": ["ntable"],
+    "body": ["{% table '$0' %}"],
+    "description": "table for nunjucks"
+  },
+  "tbody": {
+    "prefix": ["ntbody"],
+    "body": ["{% tbody '$0' %}"],
+    "description": "tbody for nunjucks"
+  },
+  "td": {
+    "prefix": ["ntd"],
+    "body": ["{% td '$0' %}"],
+    "description": "td for nunjucks"
+  },
+  "template": {
+    "prefix": ["ntemplate"],
+    "body": ["{% template '$0' %}"],
+    "description": "template for nunjucks"
+  },
+  "textarea": {
+    "prefix": ["ntextarea"],
+    "body": ["{% textarea '$0' %}"],
+    "description": "textarea for nunjucks"
+  },
+  "tfoot": {
+    "prefix": ["ntfoot"],
+    "body": ["{% tfoot '$0' %}"],
+    "description": "tfoot for nunjucks"
+  },
+  "th": {
+    "prefix": ["nth"],
+    "body": ["{% th '$0' %}"],
+    "description": "th for nunjucks"
+  },
+  "thead": {
+    "prefix": ["nthead"],
+    "body": ["{% thead '$0' %}"],
+    "description": "thead for nunjucks"
+  },
+  "time": {
+    "prefix": ["ntime"],
+    "body": ["{% time '$0' %}"],
+    "description": "time for nunjucks"
+  },
+  "title": {
+    "prefix": ["ntitle"],
+    "body": ["{% title '$0' %}"],
+    "description": "title for nunjucks"
+  },
+  "tr": {
+    "prefix": ["ntr"],
+    "body": ["{% tr '$0' %}"],
+    "description": "tr for nunjucks"
+  },
+  "track": {
+    "prefix": ["ntrack"],
+    "body": ["{% track '$0' %}"],
+    "description": "track for nunjucks"
+  },
+  "tt": {
+    "prefix": ["ntt"],
+    "body": ["{% tt '$0' %}"],
+    "description": "tt for nunjucks"
+  },
+  "u": {
+    "prefix": ["nu"],
+    "body": ["{% u '$0' %}"],
+    "description": "u for nunjucks"
+  },
+  "ul": {
+    "prefix": ["nul"],
+    "body": ["{% ul '$0' %}"],
+    "description": "ul for nunjucks"
+  },
+  "var": {
+    "prefix": ["nvar"],
+    "body": ["{% var '$0' %}"],
+    "description": "var for nunjucks"
+  },
+  "video": {
+    "prefix": ["nvideo"],
+    "body": ["{% video '$0' %}"],
+    "description": "video for nunjucks"
+  },
+  "wbr": {
+    "prefix": ["nwbr"],
+    "body": ["{% wbr '$0' %}"],
+    "description": "wbr for nunjucks"
+  }
+}
